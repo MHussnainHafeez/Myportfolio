@@ -82,4 +82,7 @@ margin-right: 0.6rem;
     .desktopMenuBtn{
         display: none;
     }
+    .navbar{
+        width: 107vw;
+    }
 }

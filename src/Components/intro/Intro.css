@@ -59,20 +59,53 @@
    .hello{
     font-size: 4.5vw;
    }
+   .bg{
+    right: -10vw;
+   }
 }
 @media screen and (max-width:720px) {
     .bg{
-        right: -40vw;
-        height: 90rem;
-    }
-}
-@media screen and (max-width:670px) {
-    .bg{
-        right: -10vw;
-    }
-}
-@media screen and (max-width:500px) {
-    .bg{
         right: -20vw;
+        /* height: 90rem; */
     }
+    #intro{
+        width: 107vw;
+    }
+}
+@media screen and (max-width:540px) {
+   .bg{
+    right: -30vw;
+   }
+}
+@media screen and (max-width:460px) {
+    .bg{
+     right: -30vw;
+     height: 46rem;
+    }
+
+ }
+ @media screen and (max-width:400px) {
+    .bg{
+     right: -30vw;
+     height: 43rem;
+    }
+    #intro{
+        height: 43rem;
+    }
+
+ }
+@media screen and (max-width:360px) {
+   
+    #intro{
+
+        width: 107vw;
+        height: 40rem;      
+
+    }
+        .bg{
+            right: -40vw;
+            top: 2rem;
+            height: 40rem;
+        }
+   
 }

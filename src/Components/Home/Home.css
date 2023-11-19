@@ -99,11 +99,11 @@
   padding: 4vmax;
 }
 .homeSkills {
-  transform: translateY(-200px);
+  /* transform: translateY(-100px); */
   background-color: hsl(240, 20%, 1%);
-  height: 1500px;
+  height: 1200px;
   position: relative;
-  margin-bottom: -200px;
+  /* margin-bottom: -200px; */
   width: 100vw;
   /* padding: 200px 0px; */
   box-sizing: border-box;
@@ -118,7 +118,8 @@
 .homeSkills > h3 {
   text-align: center;
   color: white;
-  margin-bottom: 3vmax;
+  /* margin-bottom: 3vmax; */
+  margin-bottom: 2vmax;
   font-size: 4vmax;
 }
 
@@ -283,8 +284,25 @@
   }
 }
 
-
-@media screen and (max-width:400px) {
+@media screen and (max-width:720px) {
+  .home{
+    width: 107vw;
+  }
   
-  
+}
+@media screen and (max-width:360px) {
+  .home{
+    width: 107vw;
+  }
+  .cubeShadow{
+    width: 200px;
+  }
+}
+@media screen and (max-width:600px) {
+  .homeSkills{
+height: 80vmax;
+  }
+  .cubeShadow{
+    width: 200px;
+  }
 }
