@@ -44,6 +44,7 @@ padding: 0 2rem;
     .skillBarText{
         font-size: 2vw;
     }
+   
 }
 @media screen and(max-width:480px) {
     .skillBarText>p{

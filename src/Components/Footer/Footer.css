@@ -68,3 +68,23 @@
 .footerContactBtn:hover p {
   color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width:720px) {
+  .footer{
+    display: flex;  
+    flex-direction: column;
+    width: 100vw;
+    
+  }
+  .first{
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+ .second>h6{
+  display: none;
+ } 
+ .second>a{
+  display: none;
+ }
+}

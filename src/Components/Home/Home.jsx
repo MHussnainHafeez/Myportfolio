@@ -10,17 +10,6 @@ import reactjs from "../../Images/react.png";
 import Project from "../Project/Project";
 
 import TimeLine from "../TimeLine/TimeLine";
-import {
-  SiCplusplus,
-  SiReact,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-  SiExpress,
-  SiCss3,
-  SiHtml5,
-  SiThreedotjs,
-} from "react-icons/si";
 import Contact from "../contact me/Contact";
 
 const Home = () => {
@@ -60,7 +49,7 @@ const Home = () => {
 
         <div className="cubeShadow"></div>
 
-        <div className="homeskillsBox" id="homeskillsBox">
+        {/* <div className="homeskillsBox" id="homeskillsBox">
           <SiCplusplus />
           <SiHtml5 />
           <SiCss3 />
@@ -70,7 +59,7 @@ const Home = () => {
           <SiReact />
           <SiNodedotjs />
           <SiThreedotjs />
-        </div>
+        </div> */}
       </div>
       <div className="projectSection">
         <div className="homeYoutubeWrapper">

@@ -104,7 +104,8 @@
   height: 1500px;
   position: relative;
   margin-bottom: -200px;
-  padding: 200px;
+  width: 100vw;
+  /* padding: 200px 0px; */
   box-sizing: border-box;
   perspective: 450px;
   display: flex;
@@ -117,7 +118,7 @@
 .homeSkills > h3 {
   text-align: center;
   color: white;
-  margin-bottom: 4vmax;
+  margin-bottom: 3vmax;
   font-size: 4vmax;
 }
 
@@ -280,4 +281,10 @@
   .homeCubeSkillsFace6 {
     transform: rotateX(-90deg) translate3d(0, 0, 75px);
   }
+}
+
+
+@media screen and (max-width:400px) {
+  
+  
 }

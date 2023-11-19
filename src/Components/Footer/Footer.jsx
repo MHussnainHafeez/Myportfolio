@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer">
   
-      <div>
+      <div className="first">
         <Typography variant="h5">About Me</Typography>
         <Typography>
           Hey, my name is M Hussnain Hafeez. I'm a passionate and dedicated MERN stack developer with a strong enthusiasm for creating dynamic and responsive web applications.
@@ -16,18 +16,18 @@ const Footer = () => {
 
        
       </div>
-      <div>
+      <div className="second">
         <Typography variant="h6">Social Media</Typography>
-        <a href="https://github.com/MHussnainHafeez" target="black">
+        <a href="https://github.com/MHussnainHafeez" target="blank">
           <BsGithub />
         </a>
-        <a href="https://www.facebook.com/hussnain.hafeez.19/" target="black">
+        <a href="https://www.facebook.com/hussnain.hafeez.19/" target="blank">
           <BsFacebook />
         </a>
-        <a href="https://www.instagram.com/mhussnainhafeez_19/" target="black">
+        <a href="https://www.instagram.com/mhussnainhafeez_19/" target="blank">
           <BsInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/m-hussnain-hafeez-5b1806227/" target="black">
+        <a href="https://www.linkedin.com/in/m-hussnain-hafeez-5b1806227/" target="blank">
           <BsLinkedin />
         </a>
       </div>
